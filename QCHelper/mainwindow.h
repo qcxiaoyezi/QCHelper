@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QDockWidget>
+#include "listview.h"
+
 
 
 class MainWindow : public QMainWindow
@@ -13,6 +16,8 @@ public:
     ~MainWindow();
 
 private:
+    QDockWidget *m_indexDWidget;
+    ListView *m_ListView;
 };
 
 #endif // MAINWINDOW_H

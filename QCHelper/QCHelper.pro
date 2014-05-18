@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    listview.cpp \
+    listmodel.cpp \
+    listdelegate.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    listview.h \
+    listmodel.h \
+    listdelegate.h
 
 FORMS    +=
